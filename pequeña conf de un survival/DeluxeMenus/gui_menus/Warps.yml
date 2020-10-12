@@ -1,0 +1,130 @@
+menu_title: '&2&lSURVIVAL : MENU'
+open_command: menu
+size: 45
+items:
+      '1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjdjYWI1NmM4MmNiODFiZGI5OTc5YTQ2NGJjOWQzYmEzZTY3MjJiYTEyMmNmNmM1Mjg3MzAxMGEyYjU5YWVmZSJ9fX0=
+        data: 0
+        slot: 13
+        display_name: '&5&LWARPS'
+        lore:
+        - ''
+        - '&fPodras realizar cosas unicas en estos'
+        - '&fDescubre los diferentes tipos de warps'
+        - ''
+        - '&fTradeos, compras de ps, etc'
+        - '&c¡Apto para todo publico!'
+        left_click_commands:
+        - '[close]'
+        - '[message] &cPróximamente'
+        right_click_commands:
+        - '[close]'
+        - '[message] &cPróximamente'
+      '2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTYwNmFiMjhlZmY1ZTdiMTM5M2M1ODIyMjZjYTlkOTcyMjk0NjlhMWQ1ODUyZjcyZmQ1MWNiNTg4NzUifX19
+        data: 0
+        slot: 20
+        display_name: '&a&lTIENDA'
+        lore:
+        - '&r'
+        - '&fTienda virtual, en el caso de ser modernista'
+        - '&fpero recuerda es mejor los tradeos '
+        - '&fpara una mejor experiencia de juego'
+        - '&fpodras encontrar'
+        - '&r'
+        - '&fBloques de varios tipos '
+        - '&cSpawners, Ores'
+        - '&r'
+        left_click_commands:
+        - '[player] shop'
+        right_click_commands:
+        - '[player] shop'
+      '3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDM0NjdhNTMxOTc4ZDBiOGZkMjRmNTYyODVjNzI3MzRkODRmNWVjODhlMGI0N2M0OTMyMzM2Mjk3OWIzMjNhZiJ9fX0=
+        data: 0
+        slot: 22
+        display_name: '&6&lTp Random'
+        lore:
+        - ' '
+        - '&f¡Explora mas alla de tus limites'
+        - '&cPero recuerda que tiene limites el mundo!'
+        - '&fPodras usar este comando cada vez que desees'
+        - ' '
+        - '&e⋆ ¡Click para empezar a viajar! ⋆'
+        left_click_commands:
+        - '[close]'
+        - '[player] tpr'
+        right_click_commands:
+        - '[close]'
+        - '[player] tpr'
+      '4':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDg1NTI1NTY0Y2I3Yzg4ZGU0ZmU5NDZiOTIyMGM0OWRkODk5MzJiMzllNzZiMzk0NTcxNWFkMzA0ODIzYzEzZCJ9fX0=
+        data: 0
+        slot: 24
+        display_name: '&e&lKITS'
+        lore:
+        - ''
+        - '&f¡Abre tus kits diarios'
+        - '&fReclama o tradea &bZonexCoins'
+        - ''
+        - '&e⋆ ¡Click para abrir tus kits! ⋆'
+        left_click_commands:
+        - '[player] kit '
+        right_click_commands:
+        - '[player] kit'
+      '5':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTIyNjM4ZjcxNjZlNjY1YjRmMWRiZDk5MGZiNzExZGVlYWQ0NzEyNTUxOGFkNTg4NjQxN2Q0MDU5ZjU2YjM4In19fQ==
+        data: 0
+        slot: 31
+        display_name: '&b&lColor de Chat'
+        lore:
+        - ''
+        - '&fObten colores modificables que'
+        - '&fpodras usar mediante todo MineLuxe'
+        - '' 
+        - '&e⋆ ¡Click para abrir los colores! ⋆'
+        left_click_commands:
+        - '[close]'
+        - '[player] awcc'
+        right_click_commands:
+        - '[close]'
+        - '[player] awcc'
+      '9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJmMjc3ZDY1YTJiMWFhYTliN2M5MGYwZTNhOGIzZTZiM2Y2NDllMjc4ZDA4ZmJjYjlkMjQ5Yzg4MGQ3M2MyNyJ9fX0=
+        slot: 9
+        display_name: '&e&lTú Perfil'
+        lore:
+        - '&r'
+        - '&fNombre: &e%player_name%'
+        - '&fRango: %vault_prefix%'
+        - '&r'
+        - '&fPing: &e%player_ping%'
+        - '&fNivel de trabajo: &e%jobsr_user_totallevels%'
+        - ''
+        - '&e&LZONEX&F&LMC te desea un feliz &6HALLOWEEN!'
+        - '&r'
+        left_click_commands:
+        right_click_commands:
+      '11':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzY4ZjFjMzM2MjViNGI0NGMzNjdiNTRjNTRhYmQxY2VhMDg4MzQ1MWYxN2Q0ZjcwM2JhM2E4N2JiOWI4MDM3In19fQ==
+        slot: 27
+        display_name: '&3&LSERVIDORES'
+        lore:
+        - ''
+        - '&f¡si deseas probar algunos de nuestras modalidades'
+        - '&fdale click y prueba una nueva experiencia!'
+        - ''
+        - '&e⋆ ¡Click para ingresar! ⋆'
+        left_click_commands:
+        - '[openguimenu] GameSelector.yml'
+        right_click_commands:
+        - '[openguimenu] GameSelector.yml'
+      '12':
+        material: 166
+        slot: 18
+        display_name: '&cCerrar Menú'
+        lore:
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'

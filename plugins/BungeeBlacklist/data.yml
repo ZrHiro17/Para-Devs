@@ -1,0 +1,405 @@
+players:
+  dfed9836-ef23-42bc-a52c-356aa091d8cf:
+    address: /167.250.54.235
+    blacklisted: false
+    lastName: Zr_HiRo12
+    reason: ''
+    history: []
+  2621cd29-7c6f-4457-8e3e-a0f7c4c84478:
+    address: /177.247.107.95
+    blacklisted: false
+    lastName: Imxr7craft
+    reason: 'TEST '
+    history:
+    - 'BLACKLIST;dfed9836-ef23-42bc-a52c-356aa091d8cf;TEST '
+    - UNBLACKLIST;dfed9836-ef23-42bc-a52c-356aa091d8cf
+  87cde6b2-bb2c-4546-951b-d9f37c35c266:
+    address: 190.159.173.150/190.159.173.150
+    blacklisted: false
+    lastName: iKevinYT_x
+    reason: ''
+    history: []
+  4cf2b1bf-3ff3-479e-bc2a-2a80012c1587:
+    address: /177.247.107.95
+    blacklisted: false
+    lastName: ByJukiT
+    reason: ''
+    history: []
+  879b7822-e677-44fd-97ab-3000f3a09346:
+    address: 179.12.2.93/179.12.2.93
+    blacklisted: false
+    lastName: Rich_Crack
+    reason: ''
+    history: []
+  72fd6bf4-cfd4-4fa0-9776-5f64bf41ac13:
+    address: 179.12.2.93/179.12.2.93
+    blacklisted: false
+    lastName: Rich_Crack
+    reason: ''
+    history: []
+  6130a99a-0a4a-4db0-9bf4-76b8ace36efb:
+    address: 179.12.2.93/179.12.2.93
+    blacklisted: false
+    lastName: Rich_Crack
+    reason: ''
+    history: []
+  7626d192-1d37-4a18-98cd-a931b121494e:
+    address: 179.12.2.93/179.12.2.93
+    blacklisted: false
+    lastName: Rich_Crack
+    reason: ''
+    history: []
+  9487a6ba-22c3-4324-bb8b-fdd0c570ad9e:
+    address: 179.12.2.93/179.12.2.93
+    blacklisted: false
+    lastName: Rich_Crack
+    reason: ''
+    history: []
+  fa7dba91-3a91-4f37-8aca-ad0b2f365d38:
+    address: 179.12.2.93/179.12.2.93
+    blacklisted: false
+    lastName: Rich_Crack
+    reason: ''
+    history: []
+  e36b1ddc-15a1-4122-b643-0784e00611bc:
+    address: 179.12.2.93/179.12.2.93
+    blacklisted: false
+    lastName: Rich_Crack
+    reason: ''
+    history: []
+  8d5312b5-70e3-40c3-b417-e32eae448819:
+    address: 179.12.2.93/179.12.2.93
+    blacklisted: false
+    lastName: Rich_Crack
+    reason: ''
+    history: []
+  c52112fc-7523-4243-b9c1-98630af1c953:
+    address: 179.12.2.93/179.12.2.93
+    blacklisted: false
+    lastName: Rich_Crack
+    reason: ''
+    history: []
+  275afe31-9a95-45a0-a69c-dd4f44b02bf0:
+    address: 179.12.2.93/179.12.2.93
+    blacklisted: false
+    lastName: Rich_Crack
+    reason: ''
+    history: []
+  ffb63976-da4b-4e9b-9031-118a29e38a4b:
+    address: 179.12.2.93/179.12.2.93
+    blacklisted: false
+    lastName: Rich_Crack
+    reason: ''
+    history: []
+  db6ea2f4-9256-4436-8ff1-7ed9acb55b5c:
+    address: 179.12.2.93/179.12.2.93
+    blacklisted: false
+    lastName: Rich_Crack
+    reason: ''
+    history: []
+  2c339187-2154-4136-aa0b-638d1593fbff:
+    address: 179.12.2.93/179.12.2.93
+    blacklisted: false
+    lastName: Rich_Crack
+    reason: ''
+    history: []
+  294fbe13-d970-4cbb-b3b8-34c9126ed36b:
+    address: 179.12.2.93/179.12.2.93
+    blacklisted: false
+    lastName: Rich_Crack
+    reason: ''
+    history: []
+  34766329-84f6-4ca0-8d26-0b25271936cd:
+    address: 179.12.2.93/179.12.2.93
+    blacklisted: false
+    lastName: Rich_Crack
+    reason: ''
+    history: []
+  dd42864d-47ff-4f30-98b9-3be427638645:
+    address: 179.12.2.93/179.12.2.93
+    blacklisted: false
+    lastName: Rich_Crack
+    reason: ''
+    history: []
+  6b6c0d92-a4b5-440c-a9f6-147e59cd578b:
+    address: 179.12.2.93/179.12.2.93
+    blacklisted: false
+    lastName: Rich_Crack
+    reason: ''
+    history: []
+  26ac1130-95c2-42fe-85b7-8a2f2e095937:
+    address: 179.12.2.93/179.12.2.93
+    blacklisted: false
+    lastName: Rich_Crack
+    reason: ''
+    history: []
+  07c947f7-6951-44c6-8ae7-3b8d3c1109df:
+    address: 179.12.2.93/179.12.2.93
+    blacklisted: false
+    lastName: Rich_Crack
+    reason: ''
+    history: []
+  db1af2fc-1c33-48a3-8cc1-ce02545fe306:
+    address: 179.12.2.93/179.12.2.93
+    blacklisted: false
+    lastName: Rich_Crack
+    reason: ''
+    history: []
+  3e4e16b5-5a36-4413-8630-0d31036d5ec4:
+    address: 179.12.2.93/179.12.2.93
+    blacklisted: false
+    lastName: Rich_Crack
+    reason: ''
+    history: []
+  14a994ee-23c5-4ea7-8fc3-cbfdc97911e7:
+    address: 179.12.2.93/179.12.2.93
+    blacklisted: false
+    lastName: Rich_Crack
+    reason: ''
+    history: []
+  c6d962f6-16cf-4ddc-bb8e-a38127933ae8:
+    address: 179.12.2.93/179.12.2.93
+    blacklisted: false
+    lastName: Rich_Crack
+    reason: ''
+    history: []
+  e5728bab-e5ad-4ae2-8b43-b4ae5eeb947c:
+    address: 179.12.2.93/179.12.2.93
+    blacklisted: false
+    lastName: Rich_Crack
+    reason: ''
+    history: []
+  70cd68f5-2489-4119-8981-b0fa5dc70e2f:
+    address: 179.12.2.93/179.12.2.93
+    blacklisted: false
+    lastName: Rich_Crack
+    reason: ''
+    history: []
+  51a0416a-10e6-40a4-89a5-bde3e6072e34:
+    address: 179.12.2.93/179.12.2.93
+    blacklisted: false
+    lastName: Rich_Crack
+    reason: ''
+    history: []
+  2a0a96ae-f884-4ec4-9fcf-80cd5ddf276e:
+    address: 179.12.2.93/179.12.2.93
+    blacklisted: false
+    lastName: Rich_Crack
+    reason: ''
+    history: []
+  eb9fe667-cea9-42b1-b49d-23d4c9309603:
+    address: 179.12.2.93/179.12.2.93
+    blacklisted: false
+    lastName: Rich_Crack
+    reason: ''
+    history: []
+  d25b8ad1-04fd-482d-9903-7b2d2b383b20:
+    address: 179.12.2.93/179.12.2.93
+    blacklisted: false
+    lastName: Rich_Crack
+    reason: ''
+    history: []
+  d04aca2b-efcc-4ed7-b68f-49784d15be39:
+    address: 179.12.2.93/179.12.2.93
+    blacklisted: false
+    lastName: Rich_Crack
+    reason: ''
+    history: []
+  49462640-ad96-45db-8665-ba46a225b072:
+    address: 179.12.2.93/179.12.2.93
+    blacklisted: false
+    lastName: Rich_Crack
+    reason: ''
+    history: []
+  6d2cf03c-69da-42cc-b512-bcdeedbc8625:
+    address: 179.12.2.93/179.12.2.93
+    blacklisted: false
+    lastName: Rich_Crack
+    reason: ''
+    history: []
+  00b2e4ea-47cb-47a5-91b3-b9b494193585:
+    address: /186.82.114.190
+    blacklisted: false
+    lastName: Rich_Crack
+    reason: ''
+    history: []
+  08fd0d0b-d0ec-4687-b647-a15c6392621f:
+    address: /167.250.54.235
+    blacklisted: false
+    lastName: jhonas777YT
+    reason: ''
+    history: []
+  f4db6448-54cc-48f4-80d9-5337fc76b5a1:
+    address: 85.251.129.140.dyn.user.ono.com/85.251.129.140
+    blacklisted: false
+    lastName: xGranda
+    reason: ''
+    history: []
+  bff19d64-307b-49e0-8186-5afc2c8d53ca:
+    address: /189.158.119.176
+    blacklisted: false
+    lastName: iNotAlezx
+    reason: ''
+    history: []
+  137e0943-a132-4211-a6c2-8eccba8fbff8:
+    address: /186.35.162.89
+    blacklisted: false
+    lastName: SiEsMiCuenta
+    reason: ''
+    history: []
+  6ed34b25-4991-4b03-81aa-07338ff4ac75:
+    address: /190.75.16.176
+    blacklisted: false
+    lastName: ImLeving
+    reason: ''
+    history: []
+  2d391559-7fff-47ca-ae2e-da0ba958478b:
+    address: /191.95.131.141
+    blacklisted: false
+    lastName: sherXman
+    reason: ''
+    history: []
+  2698beba-6c72-4848-ad0e-84503b1398bb:
+    address: 181.33.190.115/181.33.190.115
+    blacklisted: false
+    lastName: Crimar_YT
+    reason: ''
+    history: []
+  a5c5d3f8-7385-4610-88f2-3f310a2a0770:
+    address: 181.33.190.115/181.33.190.115
+    blacklisted: false
+    lastName: Crimar_YT
+    reason: ''
+    history: []
+  127aaf17-5387-4226-bafc-3876ae6c0824:
+    address: /88.21.88.23
+    blacklisted: false
+    lastName: _ItzPioniX_
+    reason: ''
+    history: []
+  b47071bd-fd2b-4055-8427-f9b1361936f9:
+    address: /181.33.190.115
+    blacklisted: false
+    lastName: Crimar_YT
+    reason: ''
+    history: []
+  8426352b-f7aa-4e98-a6c7-870ce892a2f7:
+    address: 186.87.240.248/186.87.240.248
+    blacklisted: false
+    lastName: RyZe_Kingdark
+    reason: ''
+    history: []
+  d8265956-92ba-47f0-89e5-0e1944f52eee:
+    address: /186.178.171.116
+    blacklisted: false
+    lastName: xShmurda
+    reason: ''
+    history: []
+  24f068f9-1939-40c3-adaa-f74ef53dbc0f:
+    address: 186.178.171.116/186.178.171.116
+    blacklisted: false
+    lastName: HAMTHESAM
+    reason: ''
+    history: []
+  c4fed2b2-7f6a-4a85-9afc-6ffad0318ff8:
+    address: 186.178.171.116/186.178.171.116
+    blacklisted: false
+    lastName: HAMTHESAM
+    reason: ''
+    history: []
+  a754c9c9-6c5a-49af-bae6-3347833725a8:
+    address: /186.178.171.116
+    blacklisted: false
+    lastName: HAMTHESAM
+    reason: ''
+    history: []
+  2d53b695-6d2c-4932-be9e-abdf8d954053:
+    address: /186.178.171.116
+    blacklisted: false
+    lastName: fukukun_15
+    reason: ''
+    history: []
+  51ac2f2d-78f0-4c62-9b41-924fd855c45a:
+    address: /186.87.240.248
+    blacklisted: false
+    lastName: RyZe_Kingdark
+    reason: ''
+    history: []
+  8d384dcb-609c-437a-aa5a-fd8badace863:
+    address: 167.250.54.235/167.250.54.235
+    blacklisted: false
+    lastName: bbywill
+    reason: ''
+    history: []
+  2343b671-255d-4741-80e2-1829312816f2:
+    address: /186.119.147.123
+    blacklisted: false
+    lastName: Sezugi
+    reason: ''
+    history: []
+  23dd7688-c12f-4afa-9ac6-813669afb713:
+    address: 167.250.54.235/167.250.54.235
+    blacklisted: false
+    lastName: MinecraftVanilla
+    reason: ''
+    history: []
+  f48d6e61-fd40-48a9-baf3-3cedf3562741:
+    address: 167.250.54.235/167.250.54.235
+    blacklisted: false
+    lastName: MinecraftVanilla
+    reason: ''
+    history: []
+  0267fa8b-53d6-4cff-8dc7-77e38b429f24:
+    address: 167.250.54.235/167.250.54.235
+    blacklisted: false
+    lastName: Zr_HiRo1
+    reason: ''
+    history: []
+  2bb283dc-04a9-4880-aff4-4d94cf8663de:
+    address: 181.196.89.145/181.196.89.145
+    blacklisted: false
+    lastName: MrLucasxD
+    reason: ''
+    history: []
+  c589da76-2744-4436-a0b5-e87de62755b4:
+    address: /187.148.56.16
+    blacklisted: false
+    lastName: zVedix
+    reason: ''
+    history: []
+  067125e2-9952-4253-9bc3-ea138a22ff08:
+    address: 179.6.198.177/179.6.198.177
+    blacklisted: false
+    lastName: SasukeSmith
+    reason: ''
+    history: []
+  ce35e48e-1f8e-450e-bad1-83849cbcbcdd:
+    address: /179.6.198.177
+    blacklisted: false
+    lastName: SasukeSmith
+    reason: ''
+    history: []
+  a74aa0be-832b-419a-9f14-19b0c0c17001:
+    address: 209.45.28.217/209.45.28.217
+    blacklisted: false
+    lastName: PepzihYT
+    reason: ''
+    history: []
+  e71465b9-cb7e-42cd-90b8-04f9b836be92:
+    address: /209.45.28.217
+    blacklisted: false
+    lastName: PepzihYT
+    reason: ''
+    history: []
+  08d3677f-9321-407c-b934-240283d64999:
+    address: 181.199.32.216/181.199.32.216
+    blacklisted: false
+    lastName: iDeiviGamer
+    reason: ''
+    history: []
+  4579b489-7aa4-4251-b9b8-be313120bcd8:
+    address: 186.35.162.89/186.35.162.89
+    blacklisted: false
+    lastName: mirapaotrolao
+    reason: ''
+    history: []

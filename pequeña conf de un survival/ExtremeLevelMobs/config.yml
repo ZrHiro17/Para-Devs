@@ -1,0 +1,76 @@
+Config:
+  Custom-Name-Visible: false
+  Health-Indicator-Nametag: '&4Lv &c%lvl% &b%name% &a%health%&f/&a%maxhealth%&c❤'
+  Max-Level: 10
+  Multiply-to-the-basis-of-health: 1
+  Multiply-health-between-levels: 5
+  Multiply-Movement-Speed-between-levels: 0.004
+  Attack-Damage-Multiplier: 0.3
+  Entity-Damage-Icon: true
+  EntityDamage: '&c%damage%'
+  Texture-Coin: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzhhNDY1MGVlM2I3NDU5NDExMjQyNjAwNDI0NmRmNTMxZTJjNjhiNmNhNDdjYWI4ZmUyMzIzYjk3OTBhMWE1ZSJ9fX0=
+  Drop-Coin: true
+  Max-Coin: 80
+  Coin-Message: '&e+%money% coin'
+  Entity-Spawn-Worlds:
+  - world
+Mob-Name:
+  Blaze: Blaze
+  CaveSpider: Araña Cueva
+  Creeper: Creeper
+  Drawned: Drawned
+  ElderGuardian: Elder Guardian
+  Enderman: Enderman
+  Endermite: Endermite
+  Evoker: Evoker
+  Ghast: Ghast
+  Guardian: Guardian
+  Hoglin: Hoglin
+  Husk: Husk
+  IronGolem: Iron Golem
+  MagmaCube: Magma Cube
+  Phantom: Phantom
+  Piglin: Piglin
+  PiglinBrute: Piglin Brute
+  PigZombie: Cerdo Zombie
+  Pillager: Pillager
+  Ravager: Ravager
+  Shulker: Shulker
+  Silverfish: Silverfish
+  Skeleton: Esqueleto
+  Slime: Slime
+  Spider: Araña
+  Stray: Stray
+  Strider: Strider
+  Vex: Vex
+  Vindicator: Vindicator
+  Witch: Witch
+  WitherSkeleton: Wither Skeleton
+  Zoglin: Zoglin
+  Zombie: Zombie
+  ZombieVillager: Zombie Villa
+Message:
+  No-Permission-Message:
+    Enabled: true
+    Message:
+    - '&c&l---------------------------------------------'
+    - '&cYou do not have permissions to perform that action!'
+    - '&c&l---------------------------------------------'
+  Reload-Message:
+    Enabled: true
+    Message:
+    - '&6&l---------------------------------------------'
+    - '&eYou have reloaded the configuration.'
+    - '&6&l---------------------------------------------'
+  No-Commands-Message:
+    Enabled: true
+    Message:
+    - '&c&l---------------------------------------------'
+    - '&cThat command does not exist!'
+    - '&c&l---------------------------------------------'
+  Killed-Message:
+    Enabled: true
+    Message:
+    - '&6&l---------------------------------------------'
+    - '&eKilled &c%killed% &elevellable entities in world &6%world%.'
+    - '&6&l---------------------------------------------'

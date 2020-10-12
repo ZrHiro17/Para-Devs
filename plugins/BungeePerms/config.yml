@@ -1,0 +1,13 @@
+Messages:
+  Prefix: '&8[&6&lBungeePerms&8] &7'
+  NotPlayer: '&cOnly players can perform this command'
+  NoPerm: '&cYou do not have permission for this'
+  GroupNotFound: '&7The group &e%group% &7could &cnot &7be found'
+  GroupAlreadyExists: '&7The group %group% &7does &calready &7exist'
+  GroupCreated: '&7The group %group% &7was &acreated'
+  GroupDeleted: '&7The group %group% &7was &cdeleted'
+  GroupSet: '&7The group of the player &e%player% &7was set to &e%group%'
+  GroupRenamed: '&7The group &e%group% &7was renamed to &e%name%'
+  PermissionAdded: '&7The permission &e%permission% &7was &aadded &7to the group &e%group%'
+  PermissionRemoved: '&7The permission &e%permission% &7was &cremoved &7from the group
+    &e%group%'

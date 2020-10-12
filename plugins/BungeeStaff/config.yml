@@ -1,0 +1,45 @@
+Version: v2.1.5
+Custom-Permissions:
+  Core-Command: bstaff.core
+  Toggle-Staff-Messages: bstaff.togglestaffmessages
+  Staff-Join: bstaff.staff.join
+  Staff-Leave: bstaff.staff.leave
+  StaffChat-Command: bstaff.staffchat
+  StaffChat-Notify-Command: bstaff.staffchat.notify
+  Request-Notify: bstaff.request.notify
+  Report-Notify: bstaff.report.notify
+  Staff-Follow: bstaff.follow
+  Staff-List: bstaff.stafflist
+  Maintenance-Command: bstaff.maintenance
+  Maintenance-Bypass: bstaff.maintenance.join
+  Maintenance-Notify: bstaff.maintenance.notify
+  Broadcast-Command: bstaff.broadcast
+  Server-Switch: bstaff.serverswitch
+  Server-Switch-Notify: bstaff.serverswitch.notify
+Use-Tab-Completion: false
+Maintenance:
+  Use-Maintenance: true
+  Enabled: false
+  Whitelisted-Players:
+  - lickem
+Broadcast:
+  Use-Broadcast: true
+No-Rank: '&6&lSTAFF &7'
+Rank-List:
+- owner
+- staff
+- mstaff
+Ranks:
+  owner:
+    prefix: '&4[Owner] &c'
+    users:
+    - c2cb2ee5-cfa5-4553-b8b3-5b3761aacbf0
+    - dfed9836-ef23-42bc-a52c-356aa091d8cf
+  staff:
+    prefix: '[unknown] '
+    users:
+    - 08fd0d0b-d0ec-4687-b647-a15c6392621f
+    - 6ed34b25-4991-4b03-81aa-07338ff4ac75
+  mstaff:
+    prefix: '[unknown] '
+    users: ''

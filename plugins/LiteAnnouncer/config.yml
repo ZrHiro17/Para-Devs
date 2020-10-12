@@ -1,0 +1,19 @@
+Settings:
+  messagesOrder: NORMAL
+  interval: 200
+  minOnlineCountForWork: 1
+  noPermMessage: ??cYou don't have permissions!
+  enableVariables: true
+  debugJsonErrors: false
+Messages:
+  '1':
+    SHOWMODE: ALLSERVERS
+    LINES:
+    - '&7&m--------------------------------------'
+    - ''
+    - '&r         &e&lZONEX&F&lMC&9&LBOT'
+    - '&fRecuerda llamar a tus amigos y asi crecer'
+    - '&eIP: &bmc.zonexmc.ml &c/ &bplay.zonexmc.ml '
+    - ''
+    - '&7&m--------------------------------------'
+  

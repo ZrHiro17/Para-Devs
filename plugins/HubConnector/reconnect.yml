@@ -1,0 +1,22 @@
+text:
+  reconnecting:
+    enable: true
+    title: "&7Reconnecting{%dots%}"
+    actionbar: "&a&lPlease do not leave! &7Reconnecting to server{%dots%}"
+    max-tries: 20
+    time: 1000
+    timeout: 5000
+    
+  connecting:
+    title: "&aConnecting..."
+    actionbar: "&7Connecting you to the server..."
+    
+  failed:
+    title: "&cReconnecting failed!"
+    actionbar: "&eYou have been moved to the fallback server!"
+    
+  shutdown:
+    text: "Server closed"
+    regex: false
+    
+ignored-servers: [server1, server2]

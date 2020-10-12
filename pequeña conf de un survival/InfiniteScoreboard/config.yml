@@ -1,0 +1,9 @@
+system:
+  locale: en_US
+  force-legacy: false
+worlds:
+  global: global-board
+  world:
+  - global-board
+permissions:
+  admin-board: infinite.scoreboard.board.admin

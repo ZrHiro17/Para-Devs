@@ -1,0 +1,70 @@
+board:
+  title:
+    lines:
+    - '&4♦ &4&kl&c&lSurvival&4&kl &4♦ &8(&71.16.1&8)'
+    interval: 15
+  2sa:
+    lines:
+    - '&8&m-&c-&8-&c-&8-&c-&8-&c-&c&l◉&8-&c-&8-&c-&8-&c-&8-&c-'
+    interval: 5
+    score: 14
+  '2':
+    lines:
+    - '&c٭ &7Informacion:'
+    interval: 5
+    score: 13
+  '3':
+    lines:
+    - ' &c⋆ &7Jugador: &c%player_name%'
+    interval: 20
+    score: 12
+  '4':
+    lines:
+    - ' &c⋆ &7Conexion: &c%player_ping%'
+    interval: 60
+    score: 11
+  '5':
+    lines:
+    - ' &c⋆ &7Mundo: &c%multiverse_world_name_colored%'
+    interval: 60
+    score: 10
+  '6':
+    lines:
+    - ' '
+    interval: 200
+    score: 9
+  '7':
+    lines:
+    - '&c٭ &7Estadisticas:'
+    interval: 1
+    score: 8
+  '8':
+    lines:
+    - ' &c⋆ &7Coins: &c%vault_eco_balance_commas% coins'
+    interval: 1
+    score: 7
+  '9':
+    lines:
+    - ' &c⋆ &7Kills: &c%statistic_player_kills%'
+    interval: 1
+    score: 6
+  '10':
+    lines:
+    - ' &c⋆ &7Muertes: &c%statistic_deaths%'
+    interval: 1
+    score: 5
+  '11':
+    lines:
+    - ' &c⋆ &7Rango: &c%luckperms_prefix%'
+    interval: 1
+    score: 4
+  sasas:
+    lines:
+    - '&8&m-&c-&8-&c-&8-&c-&8-&c-&c&l◉&8-&c-&8-&c-&8-&c-&8-&c-'
+    interval: 5
+    score: 3
+  '13':
+    lines:
+    - '        &cPlay.zonexmc.ml '
+    interval: 1
+    score: 2

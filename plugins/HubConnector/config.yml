@@ -1,0 +1,82 @@
+############################################################
+
+# +------------------------------------------------------+ #
+
+# |                 HubConnector v1.0                    | #
+
+# |                    by JustDevs                       | #
+
+# +------------------------------------------------------+ #
+
+############################################################
+
+# +------------------------------------------------------+ #
+
+# |                      Settings             		     | #
+
+# +------------------------------------------------------+ #
+
+############################################################
+
+
+
+
+
+# Select server to send player
+
+# ONLY WHEN MULTIHUB IS DISABLED
+
+Server: "hub"
+
+
+
+# MultiHub
+
+# ONLY WHEN MULTIHUB IS ENABLED
+
+MultiHub: false
+
+Servers:
+
+  - hub1
+
+  - hub2
+
+  - hub3
+
+ 
+
+ip_limit: 2
+
+
+
+captcha:
+
+  enable: false
+
+  # In seconds
+
+  time-kick: 20
+
+  bypass-perm: 'hubconnector.captcha.bypass'
+
+
+
+# PingSystem
+
+Ping: false
+
+Kicklag:
+
+  LevelPing: 120 #ms
+
+
+
+Title: false
+
+        
+
+# Updates
+
+Check-For-Updates: true
+

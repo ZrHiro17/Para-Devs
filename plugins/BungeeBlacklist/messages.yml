@@ -1,0 +1,37 @@
+NO_PERMISSION: '&e&lZONEX&F&lMC&9&LBOT &Fcomando desconocido.'
+COMMAND_USAGE: '&cUsa: {0}'
+DEFAULT_REASON: 'Blacklisted por intentos malisiosos a la NETWORK.'
+INVALID_PLAYER: '&cCouldn''t find the player ''{0}''.'
+BYPASS_PERMISSION: '&cNo puedes poner el jugador en la lista negra ''{0}''.'
+SELF_BLACKLIST: '&cNo puedes ponerte en la lista negra.'
+SELF_UNBLACKLIST: '&cNo puede eliminarse de la lista negra.'
+SILENT_PREFIX: '&7[Silent]'
+BLACKLIST_ANNOUNCE: |-
+  &6&M------------------------------
+  &7[&C!&7] &9&LSTAFF: &F{0}
+  &7[&C!&7] &CBlacklisted A &F{1}.
+  &7[&C!&7] &cRazon: &f{2}
+  &6&M------------------------------
+KICK_MESSAGE: |-
+  &e&lZONEX&F&lMC&9&LBOT
+  &6
+  &6&M------------------------------
+  &cFuiste Blacklisted de la &6&lNETWORK
+  &6
+  &9&LSTAFF: &F{0}
+  &7
+  &cRazon: &F{0}
+  &6&M------------------------------
+  &f Si crees quee es un &cERROR &fInforma en
+  &9&LDISCORD: https://discord.gg/8DJuNcp
+  
+UNBLACKLIST_ANNOUNCE: '&a{0} Se le retiro la blacklist al jugador {1}.'
+NOT_BLACKLISTED: '&cEl jugador ''{0}'' no esta blacklist.'
+HISTORY: |-
+  &aHistory of {0}:
+  {1}
+HISTORY_BLACKLIST: |-
+  &a{0}. Blacklisted by {1}.
+  &aReason: {2}
+HISTORY_UNBLACKLIST: '&a{0}. Unblacklisted by {1}.'
+BLACKLIST_WARNING: '&c[Warning] Parece que una de sus cuentas está en la lista negra, pero tiene acceso de derivación.'

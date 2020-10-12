@@ -1,0 +1,43 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                 HubConnector v1.0                    | #
+# |                    by JustDevs                       | #
+# +------------------------------------------------------+ #
+############################################################
+
+############################################################
+# +------------------------------------------------------+ #
+# |                      Messages             		     | #
+# +------------------------------------------------------+ #
+############################################################
+
+
+# Message when player type /hub
+Message: "&9BOT &8> &6conectando al hub!"
+
+# Message when player type /hub and you is alredy in hub servers
+AlreadyInHub: "&9BOT &8> &6ya se te conecto al hub!"
+
+# when pingsystem is disable and message you
+Ping:
+  MsgFalse: "&cPingSystem disabled"
+  NotOnline: "&cThis player is not online!"
+  KickMessage: "&cYou are lagging too much"
+  Ping: "&aYour ping is {ping} ms"
+  PingOther: "&aThe Ping of the player {player} is: &a{ping} ms"
+
+titleAlreadyInHub: "&cNope"
+subTitleAlreadyInHub: "&6You are already on the Hub server!"
+titleMessage: "&6Connecting..."
+subTitleMessage: "&cWait please"
+
+onSwitchServer: "&9Server &8> &6Connecting to... &7{destinationServer}"
+
+captcha:
+  enter: "&c&lCAPTCHA: &rWrite this code: {code} not to be kicked"
+  kick: "&c&lCAPTCHA: &rTime Over"
+  timer: "&c&lCAPTCHA: &rYou have {time} seconds"
+  wrong: "&c&lCAPTCHA: Wrong data."
+  correct: "&c&lCAPTCHA: &aCorrect data."
+
+ip_limit_msg: "&cToo many connections from this IP address"

@@ -1,0 +1,12 @@
+# CMDBlock by GrdX 
+# https://www.mscpn.com/bcb 
+# Created for ArkFlame: play.arkflame.com 
+message: "&e&LZONEXMC&9&LBOT &fcomando desconocido"
+command:
+ global:
+  - version
+
+#Specific Server, example: lobby
+ lobby:
+  - bukkit
+  - worldedit:*

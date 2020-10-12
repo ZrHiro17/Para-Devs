@@ -1,0 +1,393 @@
+# If you need help, please visit wiki page: https://github.com/Jakubson/JPremium/wiki
+settings:
+    mysql:
+        host: na03-sql.pebblehost.com
+        port: 3306
+        user: customer_140216_premium
+        password: ~HhjzdF9hLm50yrg#R@Q
+        database: customer_140216_premium
+        first-table: # Change columns names do not produce change columns names in already created tables in MySQL!
+            name: non_premium_users
+            columns:
+                nickname: nickname
+                index: index
+                password: password
+                language: language
+                ip: ip
+        second-table: # Change columns names do not produce change columns names in already created tables in MySQL!
+            name: premium_users
+            columns:
+                uuid: uuid
+                index: index
+                language: language
+        use-ssl: false
+        use-sqlite: false # You have to install this plugin on your BungeeCord server: https://www.spigotmc.org/resources/57191/
+    secret-key: dIPheYi2khJ4ZkM4SQEQ1DbNfdfBURzi # Your server secret key, please enter this same key to config in JPremium config file on the Spigot servers. The secret key cannot start with a number!
+    default-skin:  # This player's skin set to all cracked players. Works only if 'fixed-unique-id' is enable. If you want to turn off it, please set empty value.
+    boss-bar-color: 3 # Color of boss bar. (0 - pink, 1 - blue, 2 - red, 3 - green, 4 - yellow, 5 - purple, 6 - white)
+    boss-bar-division: 0 # Division of boss bar. (0 - no division, 1 - 6 notches, 2 - 10 notches, 3 - 12 notches, 4 - 20 notches)
+    max-ip-accounts: 5 # How many non-premium players can register with this same ip address.
+    fixed-unique-id: true # Whether to use random unique id for player. I recommend turn on it.
+    default-language: en # Default language from messages section.
+    registration-type: SERVER # Whether to allow register non-premium players on the server, website or both sites. (SERVER, WEBSITE, SERVER_AND_WEBSITE, SECURE - if to server joined more than 25 players in 3 minutes, next new players must register via website)
+    disable-auto-login: true # Whether premium player can disable auto login.
+    auto-login-premium: false # Whether to auto login new premium players.
+    sending-captcha-code: false # Whether to send a captcha code to Spigot servers to generate a captcha map. You have to have 'createVoidWorld' enable in JPremium configuration on Spigot server to it work.
+    switch-server-timeout: 1000 # How many the plugin must wait in order to connect player with another server. Change this value only when author of JPremium ask for it.
+    allow-nickname-pattern: '[a-zA-Z0-9_]{3,16}' # Regex pattern of the allow nickname.
+    enable-allow-address: false # Whether to check address which player using to connect to the server.
+    case-sensitive-allow-address: false # Whether to check case sensitive of allow addresses.
+    allow-addresses: [] # Using only these addresses player can join to the server. All addresses must be typed with a port! For example: mc.example.com:25565
+    staff-addresses: [] # Using only these addresses player with 'jpremium.staff' permission can join to the server. All addresses must be typed with a port! For example: admin.example.com:25565
+    login:
+        commands:
+            - login
+            - l
+        server: # Server names to which non-premium player connect in order to login.
+            - authme
+        after: # Server names to which non-premium or premium player connect after login.
+            - hub
+        time: 80 # How many time has non-premium player to login.
+        kick-when-bad-password: false # Whether to kick non-premium player when he enter wrong password.
+    register:
+        commands:
+            - register
+        server: # Server names to which non-premium player connect in order to register.
+            - authme
+        after: # Server names to which non-premium player connect after register.
+            - hub
+        time: 120 # How many time has non-premium player to register.
+        allow-password-pattern: '[\S]{5,32}' # Regex pattern of the allow password.
+        case-sensitive-bad-passwords: true # Whether to check case sensitive of bad passwords.
+        bad-passwords: # The passwords are considered as unsafe and non-premium player cannot set they as password.
+            - 12345
+            - qwerty
+            - abcdef
+            - minecraft
+            - soypro
+            - 54123
+            - 25468
+            - 14568
+            - SrLink
+            - Hacker
+            - sexo
+            - puta
+            - loca
+        captcha: true # Whether to non-premium player must enter captcha code during register.
+        captcha-length: 5 # The length of captcha code. Maximal length is 32.
+    unregister:
+        commands:
+            - unregister
+    auto-login:
+        commands:
+            - premium
+    change-password:
+        commands:
+            - changepassword
+    change-language:
+        commands:
+            - language
+    change-skin:
+        commands:
+            - 
+    jpremium-register:
+        commands:
+            - jregister
+    jpremium-unregister:
+        commands:
+            - junregister
+    jpremium-auto-login:
+        commands:
+            - jautologin
+    jpremium-change-password:
+        commands:
+            - jchangepassword
+    jpremium-change-language:
+        commands:
+            - jlanguage
+    jpremium-change-skin:
+        commands:
+            - 
+    jpremium-verify:
+        commands:
+            - jverify
+    jpremium-players:
+        commands:
+            - jplayers
+    jpremium-reload:
+        commands:
+            - jreload
+    jpremium-convert:
+        commands:
+            - jconvert
+messages:
+    en:
+        servers-not-responding: '&e&LZONEX&9&lBOT &7¡La API de Mojang no responde a nuestra solicitud! ¡No podemos procesar su solicitud!'
+        max-ip-accounts: '&e&LZONEX&9&lBOT &7¡No puede registrar más cuentas usando su dirección IP!'
+        website-registration: '&a'
+        update: '&a'
+        disabling-plugin: '&e&LZONEX&9&lBOT &7¡El servidor se está reiniciando! ¡Vuelve en un segundo!'
+        disallow-nickname: '&e&LZONEX&9&lBOT &7¡No puedes usar tu apodo en este servidor! ¡Intenta usar otro apodo!'
+        disallow-address: '&e&LZONEX&9&lBOT &7¡No puede unirse al servidor usando esta dirección! ¡Utilice &amc.zonexmc.ml o play.zonexmc.ml!'
+        disallow-staff-address: '&e&LZONEX&9&lBOT &7¡Esta cuenta requiere una dirección IP de servidor especial para conectarse con ella! Póngase en contacto en Discord:&Fhttps://discord.gg/8DJuNcp .!'
+        boss-bar: ''
+        premium:
+            fadeIn: 1
+            stay: 3
+            fadeOut: 1
+            title: '&5Buenas &f%PLAYER_NAME%'
+            subtitle: '&7Registrado por ser premium!'
+            header: ''
+            footer: ''
+            chat: |
+                &b&m---------------------------------
+                &e&l█████ &7[&c!&7]&eLogueado
+                &e&l█&f&l███&e&l█
+                &e&l███&f&l█&e&l█ &7[&c!&7] &fPosees una cuenta premium
+                &e&l██&f&l█&e&l██
+                &e&l█&f&l█&e&l███&7[&c!&7] &fNuestro &9&LBot &7te auto-registro
+                &e&l█&f&L███&e&L█
+                &e&l█████ &7[&c!&7] &7Gracias por preferirnos
+                &b&m---------------------------------
+               
+        non-premium:
+            login:
+                before:
+                    fadeIn: 1
+                    stay: 18
+                    fadeOut: 1
+                    title: '&eZONEX&FMC &8LOGUEATE'
+                    subtitle: '&F/login &A<password>'
+                    header: ''
+                    footer: ''
+                    chat: |
+                        &b&m---------------------------------
+                        &e&l█████ &7[&c!&7]&e&lLogueate Usando:
+                        &e&l█&f&l███&e&l█
+                        &e&l███&f&l█&e&l█ &7[&c!&7] &f&l/login &c<pass>
+                        &e&l██&f&l█&e&l██
+                        &e&l█&f&l█&e&l███ &7[&c!&7] &7Si eres premium usa el &c/premium.
+                        &e&l█&f&L███&e&L█
+                        &e&l█████ &7[&c!&7] &7Si no lo eres no lo &cUSES &7o pierdes tu cuenta
+                        &b&m---------------------------------
+                
+                after:
+                    fadeIn: 1
+                    stay: 3
+                    fadeOut: 1
+                    title: '&eZONEX&FMC &8LOGUEADO'
+                    subtitle: '&F%PLAYER_NAME%'
+                    header: ''
+                    footer: ''
+                    chat: ''
+                    
+                error:
+                    timeout: '&e&LZONEX&9&lBOT &7¡Se acabó el tiempo para iniciar sesión! Inténtalo de nuevo!'
+                    registered: '&e&LZONEX&9&lBOT &7Tienes que registrar tu cuenta para usar ese comando!'
+                    logged: '&e&LZONEX&9&lBOT &7Ya estas logueado!'
+                    enter-password: '&e&LZONEX&9&lBOT &7¡No ha introducido todos los argumentos! Por favor, ingrese contraseña!'
+                    incorrect-password: '&e&LZONEX&9&lBOT &7¡Ha introducido una contraseña incorrecta! Ingrese la contraseña correcta!'
+                    incorrect-nickname: '&e&LZONEX&9&lBOT &7Usas un apodo incorrecto! Por favor use &a%PLAYER_CORRECT_NAME%&7, no &c%PLAYER_NAME%&7!'
+            register:
+                before:
+                    fadeIn: 1
+                    stay: 118
+                    fadeOut: 1
+                    title: '&eZONEX&FMC &AREGISTRATE'
+                    subtitle: '&f/register &e<pass> <re-pass> <captcha>'
+                    header: ''
+                    footer: ''
+                    chat: |
+                        &b&m---------------------------------
+                        &6
+                        &e&l█████ &7[&c!&7]&eRegistrate Usando:
+                        &e&l█&f&l███&e&l█
+                        &e&l███&f&l█&e&l█  &7[&c!&7] &f&L/register &e<pass> <re-pass> <captcha>
+                        &e&l██&f&l█&e&l██
+                        &e&l█&f&l█&e&l███ &7[&c!&7] &7Si eres premium usa el &c/premium.
+                        &e&l█&f&L███&e&L█ &7[&c!&7] &7Si no lo eres no lo &cUSES &7o pierdes tu cuenta
+                        &e&l█████ &7[&c&l!&7] &f&lSi tienes dificultades en el registro comunica a nuestro discord
+                        &7[&c&l!&7] &9&lDISCORD &Fhttps://discord.gg/8DJuNcp
+                        &b&m---------------------------------
+                after:
+                    fadeIn: 1
+                    stay: 3
+                    fadeOut: 1
+                    title: '&eZONEX&FMC &AREGISTRADO'
+                    subtitle: '&ACOREECTAMENTE'
+                    header: ''
+                    footer: ''
+                    chat: ''
+                captcha: '&e&LZONEX&9&lBOT &F&LEste es tu captcha de registro &c%CAPTCHA% '
+                premium: |
+                    &f
+                    &a # INFO #
+                    &b&m---------------------------------
+                    &f
+                    &e&l█████ &7[&c!&7]&eRegistrado
+                    &e&l█&f&l███&e&l█ 
+                    &e&l███&f&l█&e&l█ &7[&c!&7] &fporque posees una cuenta premium
+                    &e&l██&f&l█&e&l██
+                    &e&l█&f&l█&e&l███ &7[&c!&7] &7&lNuestro &9&LBot &7&lte auto-registro
+                    &e&l█&f&L███&e&L█
+                    &e&l█████ &7[&c!&7] &7&lGracias por preferirnos!
+                    &6
+                    &b&m---------------------------------
+
+                    
+                error:
+                    timeout: '&e&LZONEX&9&lBOT &7¡Se acabó el tiempo para registrarse! Inténtalo de nuevo!'
+                    registered: '&e&LZONEX&9&lBOT &7Esa Cuenta ya esta en uso'
+                    enter-passwords: '&e&LZONEX&9&lBOT &7Falta texto! Porfavor usa Contraseña re-contraseña y captcha!'
+                    disallow-password: '&e&LZONEX&9&lBOT &7¡Tienes que ingresar otra contraseña! Una contraseña debe tener más de 5 caracteres y un cortocircuito de 32 caracteres!'
+                    password-bad: '&&e&LZONEX&9&lBOT &7¡La contraseña es demasiado débil! Introduzca una contraseña más segura.'
+                    passwords-same: '&e&LZONEX&9&lBOT &7¡Ha ingresado dos contraseñas diferentes! Ingrese las mismas contraseñas!'
+                    incorrect-captcha: '&e&LZONEX&9&lBOT &7¡Has introducido un captcha incorrecto! Ingrese el captcha que está en la parte superior de su pantalla!'
+            unregister:
+                after: '&e&LZONEX&9&lBOT &7Tu cuenta a sido sacada del registro!'
+                error:
+                    premium: '&e&LZONEX&9&lBOT &7¡Los jugadores premium no pueden usar ese comando!'
+                    enter-password: '&e&LZONEX&9&lBOT &7¡No ha introducido todos los argumentos! Introduzca la contraseña.'
+                    incorrect-password: '&e&LZONEX&9&lBOT &7¡Ha introducido una contraseña incorrecta! Ingrese una contraseña correcta!'
+            auto-login:
+                after:
+                    premium: '&e&LZONEX&9&lBOT &7¡Has cambiado tu cuenta a una prima! ¡No necesita usar el comando de inicio de sesión ahora!!'
+                    password: '&e&LZONEX&9&lBOT &7¡Ha cambiado su cuenta a una no premium! ¡Necesita usar el comando de inicio de sesión ahora!'
+                error:
+                    enter-password: '&e&LZONEX&9&lBOT# &7¡No ha introducido todos los argumentos! ¡Por favor, ingrese contraseña!'
+                    incorrect-password: '&e&LZONEX&9&lBOT &7¡Ha introducido una contraseña incorrecta! Introduzca la contraseña correcta.'
+                    premium: '&&e&LZONEX&9&lBOT &7¡Los jugadores no premium no pueden usar ese comando!'
+                    disable-auto-login: '&e&LZONEX&9&lBOT &7¡No puedes cambiar tu cuenta a un jugador no premium!'
+                    enter-passwords: '&e&LZONEX&9&lBOT &7¡No ha introducido todos los argumentos! Por favor ingrese un password, re-password!'
+                    disallow-password: '&e&LZONEX&9&lBOT&7¡Tienes que ingresar otra contraseña! Una contraseña debe tener más de 5 caracteres y un cortocircuito de 32 caracteres!'
+                    password-bad: '&e&LZONEX&9&lBOT &7¡La contraseña es demasiado débil! Introduzca una contraseña más segura.'
+                    passwords-same: '&&e&LZONEX&9&lBOT &7¡Ha ingresado dos contraseñas diferentes! ¡Ingrese las mismas contraseñas!'
+            change-password:
+                after:
+                    fadeIn: 0
+                    stay: 0
+                    fadeOut: 0
+                    title: ''
+                    subtitle: ''
+                    header: ''
+                    footer: ''
+                    chat: '&e&LZONEX&9&lBOT &7tu contraseña a sido cambiada'
+                error:
+                    premium: '&e&LZONEX&9&lBOT &7¡Los jugadores premium no pueden usar ese comando!'
+                    enter-passwords: '&e&LZONEX&9&lBOT &7¡No ha introducido todos los argumentos! Por favor ingrese una contraseña anterior, una nueva contraseña, ¡re-nueva contraseña!'
+                    incorrect-old-password: '&e&LZONEX&9&lBOT &7¡Ha introducido una contraseña antigua incorrecta! Introduzca la contraseña antigua correcta.'
+                    disallow-password: '&e&LZONEX&9&lBOT &7¡Tienes que ingresar otra contraseña! ¡Una contraseña debe tener más de 5 caracteres y un cortocircuito de 32 caracteres!'
+                    password-bad: '&e&LZONEX&9&lBOT &7¡La contraseña es demasiado débil! Introduzca una contraseña más segura.'
+                    passwords-same: '&&e&LZONEX&9&lBOT &7¡Ha ingresado dos nuevas contraseñas diferentes! ¡Ingrese las mismas contraseñas!'
+            change-language:
+                after:
+                    fadeIn: 0
+                    stay: 0
+                    fadeOut: 0
+                    title: ''
+                    subtitle: ''
+                    header: ''
+                    footer: ''
+                    chat: '&a&l# &7Your language has been changed!'
+                error:
+                    enter-language: '&c&l# &7You have not entered all arguments! Please enter a language!'
+                    incorrect-language: '&c&l# &7You have entered incorrect language name! Please enter correct language!'
+            change-skin:
+                after:
+                    fadeIn: 0
+                    stay: 0
+                    fadeOut: 0
+                    title: ''
+                    subtitle: ''
+                    header: ''
+                    footer: ''
+                    chat: '&a&l# &7Your skin has been changed! To see result, please re-join to the server!'
+                error:
+                    have-default-skin: '&c&l# &7You do not have a custom skin so you cannot reset it!'
+                    wait: '&a&l# &7Servers are processing your request! Please wait!'
+                    enter-skin: '&c&l# &7You have not entered all arguments! Please enter nothing (to to reset skin) or skin nickname (to set a new skin)!'
+                    too-many-requests: '&c&l# &7You can use that command every 5 minutes!'
+                    skin-is-not-exits: '&c&l# &7That skin is not exits!'
+            jpremium-register:
+                after: '&a&l# &7You have register that user!'
+                error:
+                    enter-nickname-and-password: '&c&l# &7You have not entered all arguments! Please enter nickname and password!'
+                    user-is-exist: '&c&l# &7That user is already registered!'
+            jpremium-unregister:
+                after:
+                    user-kick: '&a&l# &7Your account has been unregistered'
+                    unregistered: '&a&l# &7You have unregistered that user!'
+                error:
+                    enter-nickname: '&c&l# &7You have not entered all arguments! Please enter nickname!'
+                    user-is-not-exist: '&c&l# &7That user is not registered!'
+                    user-is-premium: '&c&l# &7You cannot unregister that user because it is premium!'
+                    user-is-not-registered: '&c&l# &7That user is not registered!'
+            jpremium-auto-login:
+                after:
+                    turned-auto-login: '&a&l# &7You have switched the account of that user to premium!'
+                    turned-password: '&a&l# &7You have switched the account of that user to non-premium!'
+                    kick-message-turned-auto-login: '&a&l# &7You have switched your account to a premium! You do not need use login command now!!'
+                    kick-message-turned-password: '&a&l# &7You have switched your account to a non-premium! You need use login command now!'
+                error:
+                    enter-nickname: '&c&l# &7You have not entered all arguments! Please enter nickname!'
+                    enter-nickname-and-password: '&c&l# &7You have not entered all arguments! Please enter nickname and password!'
+                    user-is-not-premium: '&c&l# &7You cannot switch the account of that user for premium because it is non-premium!'
+                    user-is-not-exits: '&c&l# &7That user is not registered!'
+            jpremium-change-password:
+                after:
+                    user-kick: '&a&l# &7Your password has been changed!'
+                    password-changed: '&a&l# &7You have changed the password of that user!'
+                error:
+                    enter-nickname-and-password: '&c&l# &7You have not entered all arguments! Please enter nickname and password!'
+                    user-is-not-exist: '&c&l# &7That user is not registered!'
+                    user-is-premium: '&c&l# &7You cannot change that user password because it is premium!'
+                    user-is-not-registered: '&c&l# &7That user is not registered!'
+            jpremium-change-language:
+                after:
+                    user-changed:
+                        fadeIn: 0
+                        stay: 0
+                        fadeOut: 0
+                        title: ''
+                        subtitle: ''
+                        header: ''
+                        footer: ''
+                        chat: '&a&l# &7Your language has been changed!'
+                    language-changed: '&a&l# &7You have changed the language of that user!'
+                error:
+                    enter-nickname-and-language: '&c&l# &7You have not entered all arguments! Please enter nickname and language!'
+                    user-is-not-exist: '&c&l# &7That user is not registered!'
+                    user-is-not-registered: '&c&l# &7That user is not registered!'
+                    incorrect-language: '&c&l# &7You have entered incorrect language name! Please enter correct language!'
+            jpremium-change-skin:
+                after:
+                    user-changed:
+                        fadeIn: 0
+                        stay: 0
+                        fadeOut: 0
+                        title: ''
+                        subtitle: ''
+                        header: ''
+                        footer: ''
+                        chat: '&a&l# &7You skin has been changed! To see result, please re-join to the server!'
+                    skin-changed: '&a&l# &7You have changed the skin of that user!'
+                error:
+                    have-default-skin: '&c&l# &7The player does not have a custom skin so you cannot reset it!'
+                    wait: '&a&l# &7Servers are processing your request! Please wait!'
+                    enter-nickname-and-skin: '&c&l# &7You have not entered all arguments! Please enter nickname itself (to reset skin) or nickname and skin nickname (to set a new skin)!'
+                    too-many-requests: '&c&l# &7You can use that command every 5 minutes!'
+                    skin-is-not-exits: '&c&l# &7That skin is not exits!'
+            jpremium-verify:
+                after:
+                    premium: '&a&l# &7That user is premium!'
+                    non-premium: '&a&l# &7That user is non-premium!'
+                error:
+                    enter-nickname: '&c&l# &7You have not entered all arguments! Please enter nickname!'
+                    user-is-not-exist: '&c&l# &7That user is not registered!'
+            jpremium-players:
+                after:
+                    separator: '&a&l* &7-------------------- &a&l*'
+                    list: '&a&l%NUMBER%&8. &a%PLAYER_CORRECT_NAME% &8/ &7%PLAYER_LANGUAGE% &8/ &7%PLAYER_IP%'
+                error:
+                    enter-min-max: '&c&l# &7You have not entered all arguments! Please enter minimum and maximum numbers of players!'
+                    invalid-quantity: '&c&l# &7You have entered incorrect quantity of players! Minimum argument must be greatest that 0 and smaller than maximum argument! Maximum argument must be equal of smaller that %MAX%!'

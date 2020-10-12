@@ -1,0 +1,138 @@
+server_connect_timeout: 5000
+listeners:
+- query_port: 25577
+  motd: '&1Another FlameCord server'
+  tab_list: SERVER
+  query_enabled: false
+  proxy_protocol: false
+  forced_hosts:
+    pvp.md-5.net: pvp
+  ping_passthrough: false
+  priorities:
+  - hub
+  bind_local_address: true
+  host: 0.0.0.0:25610
+  max_players: 400
+  tab_size: 60
+  force_default_server: true
+remote_ping_cache: -1
+network_compression_threshold: 256
+permissions:
+  default:
+  - litebans.notify
+  - skinsrestorer.command
+  - skinsrestorer.command.set
+  - skinsrestorer.command.set.url
+  admin:
+  - countryonjoin.hide
+  - bungeeperms.use
+  - bstaff.core
+  - bstaff.togglestaffmessages
+  - bstaff.staff.join
+  - bstaff.staff.leave
+  - bstaff.staffchat
+  - bstaff.staffchat.notify
+  - bstaff.request.notify
+  - bstaff.report.notify
+  - bstaff.follow
+  - bungeeblacklist.*
+  - litebans.*
+  - skinsrestorer.command.gui
+  - announcer.admin
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.ip
+  - bungeecord.command.reload
+  - bungeecord.command.server
+  - flamecord.usage
+  yt:
+  - litebans.notify
+  - litebans.kick
+  - bungeecord.command.alert
+  staff:
+  - litebans.notify
+  - litebans.ban
+  - litebans.tempban
+  - litebans.mute
+  - litebans.tempmute
+  - litebans.warn
+  - litebans.kick
+  - litebans.history
+  - litebans.dupeip
+  - litebans.group.staff
+  - skinsrestorer.command
+  - skinsrestorer.command.set
+  - skinsrestorer.command.set.url
+  - litebans.unmute.own
+  - bstaff.togglestaffmessages
+  - bstaff.staff.join
+  - bstaff.staff.leave
+  - bstaff.staffchat
+  - bstaff.staffchat.notify
+  - bstaff.request.notify
+  - bstaff.report.notify
+  - bstaff.follow
+  mstaff:
+  - litebans.notify
+  - litebans.ban
+  - litebans.tempban
+  - litebans.mute
+  - litebans.tempmute
+  - litebans.warn
+  - litebans.kick
+  - litebans.history
+  - litebans.dupeip
+  - litebans.unban.own
+  - litebans.ipban
+  - litebans.group.mstaff
+  - skinsrestorer.command
+  - skinsrestorer.command.set
+  - skinsrestorer.command.set.url
+  - litebans.ipmute
+  - litebans.unwarn.own
+  - litebans.exempt.kick
+  - bungeeblacklist.blacklist
+  - bungeeblacklist.unblacklist
+  - bungeecord.command.alert
+  - bstaff.togglestaffmessages
+  - bstaff.staff.join
+  - bstaff.staff.leave
+  - bstaff.staffchat
+  - bstaff.staffchat.notify
+  - bstaff.request.notify
+  - bstaff.report.notify
+  - bstaff.follow
+log_pings: true
+connection_throttle_limit: 3
+prevent_proxy_connections: false
+timeout: 5000
+player_limit: 400
+ip_forward: true
+groups:
+  Zr_HiRo12:
+  - admin
+remote_ping_timeout: 5000
+connection_throttle: 4000
+log_commands: false
+stats: bd043bce-6a9f-4297-b19b-0abc00194d62
+online_mode: false
+forge_support: true
+disabled_commands:
+- disabledcommandhere
+servers:
+  authme:
+    motd: '&1mañana'
+    address: (ip del authme)
+    restricted: false
+  hub:
+    motd: '&1mañana'
+    address: (ip del hub)
+    restricted: false
+  skywars:
+    motd: '&1mañana'
+    address: (ip del skywars)
+    restricted: false
+  survival:
+    motd: '&1mañana'
+    address: (ip del survival)
+    restricted: false
